@@ -1,0 +1,35 @@
+html {
+  background-color: grey;
+}
+
+body {
+  padding: 1em;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9efec;
+}
+
+ul.tweets {
+  padding: 1em;
+  list-style-type: none;
+}
+
+li.tweet {
+  padding: 1em;
+  border: 1px solid #f2e5ff;
+  margin: 10px;
+  background:#f2e5ff;
+  box-shadow: rgba(0, 0, 0, 0.0980392) -6px 6px 0px 0px inset;
+}
+
+.tweet .user {
+  font-weight: bold;
+  padding: 0.4em;
+}
+
+#loading img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
